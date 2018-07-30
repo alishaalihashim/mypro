@@ -1,0 +1,103 @@
+body {
+    height: 1000px;
+    background:linear-gradient(
+        rgba(20,20,20,0.3),
+        rgba(20,20,20,0.5)),
+    url(images/wall.jpg);
+    background-size:cover;
+    background-repeat: no-repeat; 
+}
+
+.flowers-list{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    background-color: antiquewhite;
+
+}
+
+.flowers-img-div{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    min-width: 190px;
+    width: 200px;
+    border-radius: 100px;
+    background-size: cover;
+    background-position: center;
+    margin: 1em;
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+
+}
+#para{
+    display: none;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    align-items:center;
+    justify-content: center;
+    color: white;
+}
+
+.flowers-img-div:hover > #para{
+    display: flex;
+    margin: 0px;
+    border-radius: 100px;
+}
+
+#flowers-details{
+ /* margin: 1em;*/
+ /*    margin-left: 450px;*/
+}
+
+.card-title, .card-subtitle{
+    text-align: center;
+}
+
+#flower-img{
+    background-image: url(images/rose.jpg);
+    height: 100px;
+    width: 100%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #a6a7a91c;
+}
+
+#box{
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    align-items:center;
+    /*    margin: 7em;*/
+    margin-top: 20px;
+}
+
+p{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
